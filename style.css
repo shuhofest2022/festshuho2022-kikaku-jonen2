@@ -394,3 +394,6 @@ nav {
         background-color: transparent;
     }
 }
+showarea {
+    display: block;
+}
