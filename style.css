@@ -394,6 +394,18 @@ nav {
         background-color: transparent;
     }
 }
-showarea {
+.showarea {
     display: block;
+    max-width: 800px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    opacity: 0;
+    background: #fff;
+    padding: 50px 20px;
+    margin: auto;
+    animation-name: displayAnime;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
