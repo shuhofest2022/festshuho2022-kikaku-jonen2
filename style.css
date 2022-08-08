@@ -1,0 +1,396 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+    max-width: 100vw;
+    text-align: center;
+    background: -moz-linear-gradient(top left, #4e53c4, #0048c4); 
+    background: -webkit-linear-gradient(top left, #4e53c4, #0048c4); 
+    background: linear-gradient(to bottom right,#4e53c4, #0048c4); 
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.title {
+    margin-top: 5rem;
+}
+    
+.top-header {
+    z-index: 10;
+    box-sizing: border-box;
+    background-color: #2352c4;
+    left: 0;
+    top: 0;
+    position: fixed;
+    justify-content: space-between;
+    transition: .5s;
+    width: 100%;
+    color: white;
+}
+
+@media (min-width: 700px) {
+    .top-header {
+        display: flex;
+    }
+}
+
+@media (min-width: 700px) {
+    .logo {
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media (max-width: 699px) {
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+.item {
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.item a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px 10px;
+    transition: background 1s;
+    margin-top: auto;
+}
+
+.item a:hover {
+    color: white;
+}
+
+.stars {
+    max-height: 2000px;
+    overflow: hidden;
+}
+
+.stars img {
+    height: auto;
+    width: 100%;
+}
+
+.hide {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.tab {
+    box-sizing: border-box;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab li a {
+    display: block;
+    background: #ddd;
+    margin: 0 2px;
+    padding: 10px 20px;
+}
+
+.tab li.active a {
+    background: #fff;
+}
+
+.area {
+    max-width: 800px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    display: none;
+    opacity: 0;
+    background: #fff;
+    padding: 50px 20px;
+}
+
+.link {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+    padding: 5px;
+    float: left;
+}
+
+.obi {
+    max-width: 370px;
+    display: block;
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 20px 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(128, 128, 128, 0.1);
+    transition: all .3s;
+    margin-top: auto;
+}
+@media (max-width: 699px) {
+    .obi {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        float: center;
+    }
+}
+.obi:hover {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4), 0 0 50px rgba(128, 128, 128, 0.1);
+    border-color: transparent;
+}
+
+.area.is-active {
+    display: block;
+    margin: auto;
+    animation-name: displayAnime;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes displayAnime {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.first_floor {
+    width: 100%;
+    max-width: 800px;
+    margin: 0;
+    padding: 0;
+}
+
+.copyright {
+    text-align: center;
+}
+
+footer {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.hide_area {
+    display: none;
+    max-width: 560px;
+    width: 100%;
+}
+
+.more_OrWif {
+    margin-left: auto;
+    margin-bottom: .25rem
+}
+
+.more_Z5BwG {
+    display: flex;
+    margin: auto 0 .25rem;
+    align-self: end;
+    align-items: center;
+    grid-gap: .25rem;
+    gap: .25rem
+}
+
+.more_Z5BwG p {
+    color: #0f3dd3
+}
+
+.more_Z5BwG span {
+    width: 1rem;
+    height: 3.5px;
+    border-bottom: .5px solid #0f3dd3;
+    border-right: .5px solid #0f3dd3;
+    transform: skew(45deg) translateY(-1.75px)
+}
+.more {
+    float: right;
+    margin: 0;
+    text-align: right;
+}
+.kikaku {
+    display: block;
+    max-width: 800px;
+    width: 100%;
+}
+.kikaku img{
+    max-width: 800px;
+    width: 100%;
+}
+nav {
+    color: white;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    background: #2352c4;
+}
+
+.drawer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 70px;
+    padding: 0 1em;
+}
+
+/*ナビゲーション部分*/
+
+.menu ul li a {
+    color: white;
+    display: block;
+    font-weight: bold;
+    padding: 2em;
+    border-bottom: 1px dotted #CCC;
+    text-decoration: none;
+}
+
+
+.menu ul li a:hover {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+
+.menu {
+    color: white;
+    text-align: center;
+    background-color: rgba(35,82,196, 1);
+    transition: 0.5s ease;
+    /*滑らかに表示*/
+    -webkit-transform: translateX(100%);
+    /*画面より100%外へ押し出し非表示にさせる*/
+
+    /*  transform: translateX(-100%);/*右から出す場合は、マイナス100%としてください*/
+
+}
+
+/*OPEN時の動き*/
+.menu.open {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    /*メニューを元の位置へ戻す*/
+
+}
+
+/*トグルボタンのスタイルを指定*/
+.Toggle {
+    display: block;
+    position: fixed;
+    /* bodyに対しての絶対位置指定 */
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    z-index: 3;
+    right: 15px;
+}
+
+.Toggle span {
+    display: block;
+    position: absolute;
+    width: 50px;
+    border-bottom: solid 4px #333;
+    -webkit-transition: .35s ease-in-out;
+    /*変化の速度を指定*/
+    -moz-transition: .35s ease-in-out;
+    /*変化の速度を指定*/
+    transition: .35s ease-in-out;
+    /*変化の速度を指定*/
+
+}
+
+/*各ボーダー少しずつずらす*/
+.Toggle span:nth-child(1) {
+    top: 5px;
+}
+
+.Toggle span:nth-child(2) {
+    top: 18px;
+}
+
+.Toggle span:nth-child(3) {
+    top: 32px;
+}
+
+.Toggle.active span:nth-child(1) {
+    top: 18px;
+    /* 1番目のspanをマイナス45度に */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+/* 2番目と3番目のspanを45度に */
+.Toggle.active span:nth-child(2),
+.Toggle.active span:nth-child(3) {
+    top: 18px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*----------------------------------ここからPCモニターの記述-----------*/
+@media screen and (min-width: 600px) {
+
+    /*ロゴの大きさを調整*/
+    #logo img {
+        max-width: 250px;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .Toggle {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+        font-size: 0.9em;
+        background-color: transparent;
+        margin: 0 10px;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    .menu ul {
+        height: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .menu ul li a {
+        padding: 0 1em;
+        border-bottom: none;
+    }
+
+    .menu ul li a:hover {
+        background-color: transparent;
+    }
+}
