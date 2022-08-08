@@ -13,11 +13,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js" integrity="sha512-sXgF3JImNbesKnmCuR5AE5WPQo6Z8xJMYRvDknGyc0eTWL62pqgEG4Auk9d0VnstzyhRNzPak8AyemFJq7a6/Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <body>
-        <script>
-            imageMapResize();
-        </script>
         <header class="top-header">
         <nav class="gnav">
             <div class="drawer">
@@ -79,5 +77,8 @@
         <footer>
             <p class="copyright">&copy; Shuho Festival 2022</p>
         </footer>
+    <script>
+        $('img[usemap]').rwdImageMaps();
+    </script>
     </body>
 </html>
