@@ -3,9 +3,6 @@ body {
     box-sizing: border-box;
     max-width: 100vw;
     text-align: center;
-    background: -moz-linear-gradient(top left, #4e53c4, #0048c4); 
-    background: -webkit-linear-gradient(top left, #4e53c4, #0048c4); 
-    background: linear-gradient(to bottom right,#4e53c4, #0048c4); 
     margin: 0;
     padding: 0;
     color: white;
