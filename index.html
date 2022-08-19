@@ -16,6 +16,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js" integrity="sha512-sXgF3JImNbesKnmCuR5AE5WPQo6Z8xJMYRvDknGyc0eTWL62pqgEG4Auk9d0VnstzyhRNzPak8AyemFJq7a6/Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <body>
+        <style>
+@keyframes shtstra{
+0%{background-position-y:0,100%;}
+50%,100%{background-position-y:0,0%;}
+}
+@keyframes shtstrb{
+0%,10%{background-position-x:0px,100%;}
+20%,30%{background-position-x:200px,100%;}
+40%,50%{background-position-x:100px,100%;}
+60%,70%{background-position-x:250px,100%;}
+80%,90%{background-position-x:150px,100%;}
+}
+.shtstr{
+height:200px;
+background-image:
+repeating-linear-gradient(135deg,#000000 0% 49%,#00000000 50%,#000000 51% 100%),
+linear-gradient(#000000 0% 33%,#ffff88 66%,#000000 67% 100%);
+background-size:100% 100%,100% 300%;
+animation:shtstra 1.4s linear infinite,shtstrb 7s linear infinite;
+}
+</style>
+<div class="shtstr"> </div>
         <header class="top-header">
         <nav class="gnav">
             <div class="drawer">
