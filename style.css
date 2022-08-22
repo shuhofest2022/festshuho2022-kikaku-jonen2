@@ -80,6 +80,7 @@ body {
 
 @media (min-width: 700px) {
     .logo {
+        font-size: 30px;
         padding: 10px;
         align-items: center;
         justify-content: center;
@@ -88,9 +89,11 @@ body {
 }
 @media (max-width: 699px) {
     .logo {
+        font-size: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 40px;
         width: 100%;
     }
 }
@@ -414,6 +417,7 @@ nav {
     }
 
     .menu {
+        left: 0%;
         width: 100%;
         font-size: 0.9em;
         background-color: transparent;
