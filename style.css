@@ -149,17 +149,18 @@ body {
     flex-wrap: wrap;
 }
 
-.tab li a {
+.tab li .unshow{
     display: block;
     background: #ddd;
     margin: 0 2px;
     padding: 10px 20px;
 }
-
-.tab li.active a {
+.tab li .show {
+    display: block;
     background: #fff;
+    margin: 0 2px;
+    padding: 10px 20px;
 }
-
 .area {
     max-width: 800px;
     height: auto;
