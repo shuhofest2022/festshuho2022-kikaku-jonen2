@@ -33,13 +33,6 @@ $(function(){
         }
     }
     
-    $('.tab a').on('click', function() {
-        var idName = $(this).attr('href');
-        GethashID (idName);
-        return false;
-    });
-    
-    
     $(window).on('load', function () {
         $('.tab li:first-of-type').addClass("active");
         $('.area:first-of-type').addClass("is-active");
