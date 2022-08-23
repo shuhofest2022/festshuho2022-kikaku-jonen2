@@ -168,7 +168,7 @@ body {
 .show {
     background: #fff;
 }
-.show a {
+.showlink {
     color: rgb(133, 153,187);
 }
 .area {
