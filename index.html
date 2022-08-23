@@ -1,25 +1,86 @@
 <!DOCTYPE html>
 <html lang="jp">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-        <title>企画紹介 | 第13回秀峰祭　～彗羽～</title>
-    </head>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js" integrity="sha512-sXgF3JImNbesKnmCuR5AE5WPQo6Z8xJMYRvDknGyc0eTWL62pqgEG4Auk9d0VnstzyhRNzPak8AyemFJq7a6/Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <body>
-        <style>
-</style>
-   <div class="shtstr"
-        <header class="top-header">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>企画紹介 | 第13回秀峰祭　～彗羽～</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"
+    integrity="sha512-sXgF3JImNbesKnmCuR5AE5WPQo6Z8xJMYRvDknGyc0eTWL62pqgEG4Auk9d0VnstzyhRNzPak8AyemFJq7a6/Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<body>
+    <style>
+        .selectdiv {
+            position: relative;
+            /*Don't really need this just for demo styling*/
+
+            float: left;
+            min-width: 200px;
+            margin: 50px 33%;
+        }
+
+        /* IE11 hide native button (thanks Matt!) */
+        select::-ms-expand {
+            display: none;
+        }
+
+        .selectdiv:after {
+            content: '<>';
+            font: 17px "Consolas", monospace;
+            color: #333;
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+            right: 11px;
+            /*Adjust for position however you want*/
+
+            top: 18px;
+            padding: 0 0 2px;
+            border-bottom: 1px solid #999;
+            /*left line */
+
+            position: absolute;
+            pointer-events: none;
+        }
+
+        .selectdiv select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            /* Add some styling */
+
+            display: block;
+            width: 100%;
+            max-width: 320px;
+            height: 50px;
+            float: right;
+            margin: 5px 0px;
+            padding: 0px 24px;
+            font-size: 16px;
+            line-height: 1.75;
+            color: #333;
+            background-color: #ffffff;
+            background-image: none;
+            border: 1px solid #cccccc;
+            -ms-word-break: normal;
+            word-break: normal;
+        }
+    </style>
+    <div class="shtstr" <header class="top-header">
         <nav class="gnav">
             <div class="drawer">
                 <h1 class="logo">SHUHO FEST ~SUIHA~</h1>
@@ -35,53 +96,64 @@
                 <ul>
                     <li class="item"><a href="https://shuhofest2022.github.io/festshuho2022-kikaku/#first">企画紹介</a></li>
                     <li class="item"><a href="https://shuhofest2022.github.io/festshuho2022-stage/#first">公演団体</a></li>
-                    <li class="item"><a href="https://shuhofest2022.github.io/festshuho2022-schedule/#koudou">スケジュール</a></li>
+                    <li class="item"><a href="https://shuhofest2022.github.io/festshuho2022-schedule/#koudou">スケジュール</a>
+                    </li>
                 </ul>
             </div>
         </nav>
-    </header>
+        </header>
         <p class="palagraph1">
-            <h1 class="title">企画紹介</h1>
+        <h1 class="title">企画紹介</h1>
         </p>
         <div class="wrapper">
-                <ul class="tab">
-                    <li><a href="#first" class="unshow">常念棟１階</a></li>
-                    <li><a href="#second" class="show">常念棟２階</a></li>
-                    <li><a href="#third" class="unshow">常念棟３階</a></li>
-            </ul>
-            <ul class="tab">
-                    <li><a href="#ufirst" class="unshow">美ヶ原棟１階</a></li>
-                    <li><a href="#usecond" class="unshow">美ヶ原棟２階</a></li>
-                    <li><a href="#uthird" class="unshow">美ヶ原棟３階</a></li>
-                    <li><a href="#ufourth" class="unshow">美ヶ原棟４階</a></li>
-                </ul>
-                <div id="second" class="showarea">
-                    <img src="jounen2.png" usemap="#ImageMap" alt="" / class="first_floor">
-                    <map name="ImageMap">
-                        <area shape="circle" coords="1086,532,72" href="https://shuhofest2022.github.io/nihonnbunka/" alt="" />
-                    </map>
-                    <div class="link"><a href="#nihonnbunka" class="info"><img src="nihonnbunka_obi.png" alt="" class="obi"></a></div>
-                </div>
-                <section id="nihonnbunka" class="hide_area">
-                    <h2>日本文化研究会</h2>
-                    <div class="kikaku"><img src="nihonnbunka_obi.png"></div>
-                    <div class="kikaku">
+
+
+            <div class="selectdiv">
+                <label>
+                    <select>
+                        <option>常念棟 1F</option>
+                        <option selected>常念棟 2F</option>
+                        <option>常念棟 3F</option>
+                        <option>美ヶ原棟 1F</option>
+                        <option>美ヶ原棟 2F</option>
+                        <option>美ヶ原棟 3F</option>
+                        <option>美ヶ原棟 4F</option>
+                    </select>
+                </label>
+            </div>
+
+
+            <div id="second" class="showarea">
+                <img src="jounen2.png" usemap="#ImageMap" alt="" / class="first_floor">
+                <map name="ImageMap">
+                    <area shape="circle" coords="1086,532,72" href="https://shuhofest2022.github.io/nihonnbunka/"
+                        alt="" />
+                </map>
+                <div class="link"><a href="#nihonnbunka" class="info"><img src="nihonnbunka_obi.png" alt=""
+                            class="obi"></a></div>
+            </div>
+            <section id="nihonnbunka" class="hide_area">
+                <h2>日本文化研究会</h2>
+                <div class="kikaku"><img src="nihonnbunka_obi.png"></div>
+                <div class="kikaku">
                     <p class="hide">　日本文化研究会の今年の企画は・・・百人一首体験・展示に加え、「和歌作り」体験です！和歌と聞くと「難しそう・・・」「よくわからない・・・」と思うかもしれません。<br>
-                     しかし！そんなことはありません！本企画は和歌作りを通してそんな負のイメージを払拭し、和歌に親しんでもらうための企画です。１－２にてお待ちしております！
-                    </p></div>
-                    <div class="more_OrWif"><a href="https://shuhofest2022.github.io/nihonnbunka/" class="more_Z5BwG">
+                        しかし！そんなことはありません！本企画は和歌作りを通してそんな負のイメージを払拭し、和歌に親しんでもらうための企画です。１－２にてお待ちしております！
+                    </p>
+                </div>
+                <div class="more_OrWif"><a href="https://shuhofest2022.github.io/nihonnbunka/" class="more_Z5BwG">
                         <p class="more                  ">MORE</p> <span></span>
                     </a>
                     <!---->
-                    </div>
-                </section>
+                </div>
+            </section>
         </div>
         <footer>
             <p class="copyright">&copy; Shuho Festival 2022</p>
         </footer>
-    <script>
-        $('img[usemap]').rwdImageMaps();
-    </script>
-        </div>
-    </body>
+        <script>
+            $('img[usemap]').rwdImageMaps();
+        </script>
+    </div>
+</body>
+
 </html>
