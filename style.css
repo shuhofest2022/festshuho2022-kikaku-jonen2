@@ -148,18 +148,15 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-
-.tab li .unshow{
+.tab li {
     display: block;
-    background: #ddd;
+    border-color: #fff;
     margin: 0 2px;
     padding: 10px 20px;
+    text-decoration: none;
 }
-.tab li .show {
-    display: block;
+.show {
     background: #fff;
-    margin: 0 2px;
-    padding: 10px 20px;
 }
 .area {
     max-width: 800px;
