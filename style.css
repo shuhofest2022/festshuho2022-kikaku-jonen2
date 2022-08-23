@@ -153,6 +153,7 @@ body {
     border-style: solid;
     border-color: #fff;
     margin: 0 2px;
+    padding: 20px 20px;
 }
 .tab li a {
     padding: 20px 20px;
@@ -160,12 +161,12 @@ body {
     color: white;
 }
 .tab li a:hover {
-    background: #fff;
     color: rgb(133,153,187);
+    background: #fff;
 }
 .showlink {
-    background: #fff;
     color: rgb(133, 153,187);
+    background: #fff;
 }
 .area {
     max-width: 800px;
