@@ -284,10 +284,12 @@ footer {
     border-right: .5px solid #0f3dd3;
     transform: skew(45deg) translateY(-1.75px)
 }
-.more {
+.more                  {
     float: right;
     margin: 0;
     text-align: right;
+    text-decoration: none;
+    color: #0f3dd3
 }
 .kikaku {
     display: block;
