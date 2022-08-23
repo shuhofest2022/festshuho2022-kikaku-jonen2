@@ -153,6 +153,10 @@ body {
     margin: 0 2px;
     padding: 20px 10px;
 }
+.show {
+    color: rgb(133,153,187);
+    background-color: #fff;
+}
 .tab li a {    
     border-style: solid;
     border-color: #fff;
@@ -161,10 +165,6 @@ body {
     color: white;
 }
 .tab li a:hover {
-    color: rgb(133,153,187);
-    background-color: #fff;
-}
-.show {
     color: rgb(133,153,187);
     background-color: #fff;
 }
