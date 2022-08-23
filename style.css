@@ -150,6 +150,7 @@ body {
 }
 .tab li {
     display: block;
+    border-style: solid;
     border-color: #fff;
     margin: 0 2px;
     padding: 10px 20px;
