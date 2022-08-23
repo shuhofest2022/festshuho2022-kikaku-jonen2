@@ -165,6 +165,7 @@ body {
 }
 .show {
     background: #fff;
+    color: rgb(133, 153,187);
 }
 .area {
     max-width: 800px;
