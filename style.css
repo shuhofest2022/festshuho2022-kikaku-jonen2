@@ -150,24 +150,22 @@ body {
 }
 .tab li {
     display: block;
-    border-style: solid;
-    border-color: #fff;
     margin: 0 2px;
     padding: 20px 10px;
 }
-.tab li a {
+.tab li a {    
+    border-style: solid;
+    border-color: #fff;
     padding: 20px 20px;
     text-decoration: none;
-    color: rgb(133,153,187);
+    color: white;
 }
 .tab li a:hover {
     color: rgb(133,153,187);
-    background: #fff;
-}
-.unshow {
-    color: rgb(133, 153,187);
+    background-color: #fff;
 }
 .show {
+    color: rgb(133,153,187);
     background-color: #fff;
 }
 .area {
