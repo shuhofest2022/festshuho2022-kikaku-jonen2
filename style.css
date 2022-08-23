@@ -80,6 +80,7 @@ body {
 
 @media (min-width: 700px) {
     .logo {
+        position: fixed;
         font-size: 30px;
         padding: 10px;
         align-items: center;
@@ -89,6 +90,7 @@ body {
 }
 @media (max-width: 699px) {
     .logo {
+        position: fixed;
         font-size: 20px;
         display: flex;
         align-items: center;
