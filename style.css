@@ -161,10 +161,14 @@ body {
 }
 .tab li:hover {
     background: #fff;
+}
+.tab li a:hover {
     color: rgb(133,153,187);
 }
 .show {
     background: #fff;
+}
+.show a {
     color: rgb(133, 153,187);
 }
 .area {
