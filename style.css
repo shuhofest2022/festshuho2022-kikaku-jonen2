@@ -164,6 +164,10 @@ body {
     color: rgb(133,153,187);
     background-color: #fff;
 }
+.show {
+    color: rgb(133,153,187);
+    background-color: #fff;
+}
 .area {
     max-width: 800px;
     height: auto;
