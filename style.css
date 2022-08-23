@@ -154,7 +154,14 @@ body {
     border-color: #fff;
     margin: 0 2px;
     padding: 10px 20px;
+}
+.tab li a {
     text-decoration: none;
+    color: white;
+}
+.tab li a:hover {
+    background: #fff;
+    color: rgb(133,153,187);
 }
 .show {
     background: #fff;
