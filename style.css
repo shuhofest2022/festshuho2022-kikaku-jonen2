@@ -153,9 +153,9 @@ body {
     border-style: solid;
     border-color: #fff;
     margin: 0 2px;
-    padding: 10px 20px;
 }
 .tab li a {
+    padding: 10px 20px;
     text-decoration: none;
     color: white;
 }
