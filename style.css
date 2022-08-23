@@ -159,7 +159,7 @@ body {
     text-decoration: none;
     color: white;
 }
-.tab li a:hover {
+.tab li:hover {
     background: #fff;
     color: rgb(133,153,187);
 }
