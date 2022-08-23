@@ -153,6 +153,9 @@ body {
     margin: 0 2px;
     padding: 20px 10px;
 }
+.unshow {
+    color: white;
+}
 .show {
     color: rgb(133,153,187);
     background-color: #fff;
@@ -162,7 +165,6 @@ body {
     border-color: #fff;
     padding: 20px 20px;
     text-decoration: none;
-    color: white;
 }
 .tab li a:hover {
     color: rgb(133,153,187);
